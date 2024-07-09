@@ -1,0 +1,54 @@
+header {
+    /* background-color: red; */
+    color: #fff;
+    margin-bottom: 160px;
+}
+header .container {
+    height: 64px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    column-gap: 48px;
+}
+header ul {
+    display: flex;
+    column-gap: 48px;
+}
+header ul li {
+    font-weight: 300;
+}
+/* ------------------ one ------------------ */
+.one .container {
+    position: relative;
+    padding-left: 72px;
+    padding-bottom: 160px;
+    /* background-color: red; */
+}
+.one .container .circle {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    border: solid 1px #aeaeae;
+    top: 24px;
+    left: 24px;
+}
+.one .container .line {
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    border-radius: 2px;
+    background-image: linear-gradient(transparent, red, yellow, transparent);
+    left: 28px;
+    top: 48px;
+}
+.one h4 {
+    font-weight: 400;
+    color: #aeaeae;
+    margin-bottom: 12px;
+}
+.one h1 {
+    font-size: 72px;
+    font-weight: 500;
+    color: #fff;
+}
