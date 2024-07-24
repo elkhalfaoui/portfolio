@@ -1,23 +1,17 @@
 import './App.css';
 import Header from './header/Header';
-
+import Hero from './hero/Hero';
+import profile from './assets/zakaria.jpg';
+import About from './about/About';
+import Skills from './skills/Skills';
 
 const App = () => {
-  
   return (
     <>
       <Header />
-      <main>
-        <div className="container">
-          <div className="circle"></div>
-          <div className="line"></div>
-          <h4>Hello, my name is Zakaria and i am a</h4>
-          <h1>
-            FULL-STACK <br />
-            DEVELOPPER
-          </h1>
-        </div>
-      </main>
+      <Hero />
+      <About />
+      <Skills />
     </>
   );
 };
