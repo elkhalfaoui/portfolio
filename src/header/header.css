@@ -1,0 +1,38 @@
+.header {
+  background-color: #262626;
+}
+.header .container {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 48px;
+  align-items: center;
+  height: 48px;
+}
+.header .logo svg {
+  color: yellow;
+}
+.header ul.menu {
+  display: none;
+}
+.header nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header nav .navigation-list,
+.header nav .settings {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 32px;
+}
+.header nav .navigation-list li,
+.header nav .settings li {
+  font-weight: 400;
+  font-size: 1em;
+  color: #a4aab3;
+  cursor: pointer;
+}
+.header nav .navigation-list li:hover,
+.header nav .settings li:hover {
+  color: #fff;
+}
