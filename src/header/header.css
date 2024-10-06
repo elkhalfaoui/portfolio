@@ -29,10 +29,40 @@
 .header nav .settings li {
   font-weight: 400;
   font-size: 1em;
+  padding: 8px 0;
   color: #a4aab3;
   cursor: pointer;
 }
 .header nav .navigation-list li:hover,
 .header nav .settings li:hover {
   color: #fff;
+}
+@media (max-width: 767px) {
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header ul.menu {
+    display: block;
+    width: 21px;
+    height: 21px;
+    background-color: red;
+  }
+  .header nav {
+    position: absolute;
+    background-color: #262626;
+    border-top: #a4aab3 solid 1px;
+    width: 100%;
+    left: 0;
+    padding: 12px 0;
+    flex-direction: column;
+    row-gap: 24px;
+    top: 48px;
+  }
+  .header nav .navigation-list,
+  .header nav .settings {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 8px;
+  }
 }

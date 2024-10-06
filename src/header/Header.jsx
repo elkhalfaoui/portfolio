@@ -31,13 +31,13 @@ const Header = () => {
           </ul>
           <ul className="settings">
             <li>
-              <FontAwesomeIcon icon={faGlobe} />
-            </li>
-            <li>
               <FontAwesomeIcon
                 icon={mode ? faSun : faMoon}
                 onClick={() => setMode(!mode)}
               />
+            </li>
+            <li>
+              <FontAwesomeIcon icon={faGlobe} />
             </li>
           </ul>
         </nav>
