@@ -23,9 +23,9 @@ const Header = () => {
         </ul>
         <nav>
           <ul className="navigation-list">
-            <li>Explore</li>
-            <li>Problems</li>
-            <li>Contest</li>
+            <li>About</li>
+            <li>Skills</li>
+            <li>Projects</li>
             <li>Discuss</li>
             <li>Interview</li>
           </ul>

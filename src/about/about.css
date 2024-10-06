@@ -1,0 +1,65 @@
+.about .container {
+  position: relative;
+  margin-top: 60px;
+  padding-bottom: 40px;
+  padding-left: 76px;
+}
+.about h2 {
+    color: #e1e1e1;
+    font-weight: 300;
+    font-size: 2em;
+    margin-bottom: 12px;
+}
+.about .about-lang {
+    display: flex;
+    column-gap: 2px;
+    margin-bottom: 2px;
+}
+.about .about-lang li:nth-child(1) {
+    border-radius: 16px 0 0 0;
+    background-color: #ffffff07;
+}
+.about .about-lang li:nth-child(2) {
+    border-radius: 0 16px 0 0;
+}
+.about .about-lang li {
+    background-color: #ffffff1a;
+    padding: 10px 16px;
+    display: flex;
+    align-items: flex-end;
+    column-gap: 12px;
+    cursor: pointer;
+}
+.about .about-lang li:hover {
+    background-color: #3c3c3cf2;
+}
+.about .about-lang li:nth-child(1) svg {
+    color: #f14c4d;
+}
+.about .about-lang li:nth-child(2) svg {
+    color: yellow;
+}
+.about .about-lang li span {
+    color: #a4aab3;
+}
+.about .about-content {
+    border-radius: 0 16px 16px;
+    background-color: #ffffff07;
+    padding: 16px;
+}
+.about .about-content p {
+    color: #a4aab3;
+    margin: 10px 0;
+}
+.about .about-content p span:nth-child(1) {
+    color: rgb(0, 136, 255);
+    padding-right: 16px;
+}
+.about .about-content p span:nth-child(2) {
+    color: rgb(0, 128, 100);
+    /* padding-right: 16px; */
+}
+.about .about-content p span:nth-child(3) {
+    color: rgb(203, 132, 1);
+    /* padding-right: 16px; */
+}

@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="container">
             <div className="circle"></div>
             <div className="line"></div>
-            <p>Hi, my name is Zakaria Elkhalfaoui</p>
+            <p>Hi, my name is Zakaria Elkhalfaoui, i am a</p>
             <h1>
                 FULL-STACK
                 <br />

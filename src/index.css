@@ -52,3 +52,22 @@ li {
   padding-left: 16px;
   padding-right: 16px;
 }
+.circle {
+  position: absolute;
+  top: 10px;
+  left: 19px;
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
+  border: 1px solid #a4aab3;
+}
+.line {
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  /* border: #a4aab3 solid 1px; */
+  border-radius: 2px;
+  background-image: linear-gradient(#ff000080, #0000ff80);
+  left: 22px;
+  top: 40px;
+}

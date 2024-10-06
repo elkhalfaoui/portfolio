@@ -2,6 +2,7 @@
   position: relative;
   margin-top: 100px;
   padding-left: 76px;
+  padding-bottom: 40px;
   /* background-color: red; */
 }
 .hero p {
@@ -61,26 +62,6 @@
 .hero .stack li:nth-child(8) svg {
     color: #cc6699;
 }
-
 .hero .stack li span {
     color: #a4aab3;
-}
-.circle {
-  position: absolute;
-  top: 10px;
-  left: 19px;
-  width: 8px;
-  height: 8px;
-  border-radius: 10px;
-  border: 1px solid #a4aab3;
-}
-.line {
-  position: absolute;
-  height: 100%;
-  width: 2px;
-  /* border: #a4aab3 solid 1px; */
-  border-radius: 2px;
-  background-image: linear-gradient(#ff000080, #0000ff80);
-  left: 22px;
-  top: 40px;
 }
