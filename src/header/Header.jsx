@@ -10,18 +10,22 @@ import { useState } from 'react';
 
 const Header = () => {
   const [mode, setMode] = useState(true);
+  const [menu, setMenu] = useState(false);
   return (
     <div className="header">
       <div className="container">
         <div className="logo">
           <FontAwesomeIcon icon={faFaceSmile} />
         </div>
-        <ul className="menu">
+        <ul
+          className={menu ? 'menu on' : 'menu'}
+          onClick={() => setMenu(!menu)}
+        >
           <li></li>
           <li></li>
           <li></li>
         </ul>
-        <nav>
+        <nav className={menu? 'on': 'off'}>
           <ul className="navigation-list">
             <li>About</li>
             <li>Skills</li>
