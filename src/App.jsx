@@ -9,6 +9,13 @@ const App = () => {
     <Header />
     <Hero />
     <About />
+    <details>
+      <summary>List</summary>
+      <p>ONE</p>
+      <p>TWO</p>
+      <p>THREE</p>
+      <p>FOUR</p> 
+    </details>
   </div>
   );
 };
