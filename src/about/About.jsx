@@ -41,6 +41,8 @@ const About = () => {
             <span>
               {' '}
               "Technicien Specialise en developpement web option full-stack"
+              "Technicien Specialise en developpement web option full-stack"
+              "Technicien Specialise en developpement web option full-stack"
             </span>
             ;
           </p>
