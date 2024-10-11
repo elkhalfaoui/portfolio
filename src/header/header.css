@@ -47,7 +47,6 @@
     display: block;
     width: 24px;
     height: 18px;
-    /* background-color: red; */
     transition: 0.3s;
   }
   .header ul.menu li {
