@@ -65,7 +65,6 @@ li {
   position: absolute;
   height: 100%;
   width: 2px;
-  /* border: #a4aab3 solid 1px; */
   border-radius: 2px;
   background-image: linear-gradient(#ff000080, #0000ff80);
   left: 22px;
