@@ -21,21 +21,18 @@ li {
 }
 /* Small Display */
 @media (min-width: 768px) {
-
   .container {
     width: 750px;
   }
 }
 /* Medium Display */
 @media (min-width: 992px) {
-
   .container {
     width: 970px;
   }
 }
 /* Large Display */
 @media (min-width: 1200px) {
-
   .container {
     width: 1170px;
   }
