@@ -1,5 +1,6 @@
 .header {
   background-color: #262626;
+  border-bottom: solid 1px #a4aab322;
   /* background-color: #010409; */
 }
 .header .container {

@@ -12,8 +12,8 @@
 .hero h1 {
   font-size: 10em;
   font-weight: 400;
-  color: transparent; /* Make the inside of the text transparent */
-    -webkit-text-stroke: 1px #e1e1e1; /* Add a black border (outline) to the text */
+  color: #1e1e1e; /* Make the inside of the text transparent */
+    -webkit-text-stroke: 1px #ebeef322; /* Add a black border (outline) to the text */
   transform: translateX(-8px);
   margin-bottom: 48px;
 }
@@ -25,7 +25,8 @@
 .hero .stack li {
     background-color: #ffffff1a;
     padding: 10px 16px;
-    border-radius: 16px;
+    border: solid 1px #a4aab322;
+    border-radius: 20px;
     display: flex;
     align-items: flex-end;
     column-gap: 12px;

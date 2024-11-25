@@ -16,11 +16,14 @@
     margin-bottom: 2px;
 }
 .about .about-lang li:nth-child(1) {
+    border: solid 1px #a4aab322;
     border-radius: 16px 0 0 0;
-    background-color: #ffffff07;
+    background-color: #1e1e1e;
 }
 .about .about-lang li:nth-child(2) {
+    border: solid 1px #a4aab322;
     border-radius: 0 16px 0 0;
+    background-color: #3e3e42;
 }
 .about .about-lang li {
     background-color: #ffffff1a;
@@ -44,21 +47,70 @@
 }
 .about .about-content {
     border-radius: 0 16px 16px;
-    background-color: #ffffff07;
+    background-color: #1e1e1e;
+    border: solid 1px #a4aab322;
     padding: 16px;
+    /* font-size: 14px; */
 }
-.about .about-content p {
+.about .about-content li {
     color: #a4aab3;
-    margin: 10px 0;
+    margin: 8px 0;
 }
-.about .about-content p span:nth-child(1) {
-    color: rgb(0, 136, 255);
+/* .about .about-content li span:nth-child(1) {
+    color: #0098ff;
     padding-right: 16px;
 }
-.about .about-content p span:nth-child(2) {
+.about .about-content li span:nth-child(2) {
     color: rgb(0, 128, 100);
 }
-.about .about-content p span:nth-child(3) {
-    color: rgb(203, 132, 1);
-    
+.about .about-content li span:nth-child(3) {
+    color: rgb(203, 132, 1); 
+} */
+.about-content .vs-tab {
+    display: inline-block;
+    width: 24px;
+}
+.about-content .vs-line-tab {
+    display: inline-block;
+    width: 36px;
+}
+.about-content .vs-line-number {
+    position: absolute;
+    color: #0098ff;
+}
+.about-content .vs-blue {
+    color: 	#0065a9;  
+}
+.about-content .vs-light-blue {
+    color: 	#0098ff;  
+}
+.about-content .vs-soft-blue {
+    color: 	#88abcf;  
+}
+/* .about-content .vs-white {
+    color: 	#e6e6e6;  
+} */
+.about-content .vs-white {
+    color: 	#e1e2e4;  
+}
+.about-content .vs-orange {
+    color: 	#e6985c;  
+}
+.about-content .vs-light-green {
+    color: 	#46aea1; 
+}
+.about-content .vs-green {
+    color: 	green; 
+}
+.about-content .vs-yellow {
+    color: 	#e3dc02; 
+}
+.about-content .vs-light-yellow {
+    color: 	#fce8ac; 
+}
+.about-content .vs-pink {
+    color: 	#cb4cbc; 
+}
+.about-content .vs-green {
+    color: 	green; 
 }
