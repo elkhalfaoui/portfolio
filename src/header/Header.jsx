@@ -18,14 +18,14 @@ const Header = () => {
           <FontAwesomeIcon icon={faFaceSmile} />
         </div>
         <ul
-          className={menu ? 'menu on' : 'menu'}
+          className={menu ? 'menu on' : 'menu off'}
           onClick={() => setMenu(!menu)}
         >
           <li></li>
           <li></li>
           <li></li>
         </ul>
-        <nav className={menu? 'on': 'off'}>
+        <nav className={menu? 'nav-on': 'nav-off'}>
           <ul className="navigation-list">
             <li>About</li>
             <li>Skills</li>
